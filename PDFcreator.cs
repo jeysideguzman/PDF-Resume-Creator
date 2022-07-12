@@ -16,5 +16,10 @@ namespace PDF_Resume_Creator
         {
             InitializeComponent();
         }
+
+        private void btnJSON_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
