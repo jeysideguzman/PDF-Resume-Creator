@@ -23,6 +23,7 @@ namespace PDF_Resume_Creator
 
         private void btnJSON_Click(object sender, EventArgs e)
         {
+            //install json.net
             ResumeInfo info = new ResumeInfo
             {
                 Name = "John Carlo De Guzman",
@@ -40,6 +41,7 @@ namespace PDF_Resume_Creator
 
         private void btnPDF_Click(object sender, EventArgs e)
         {
+            //install itextsharp
             Document doc = new Document();
             PdfWriter.GetInstance(doc, new FileStream("Resume.pdf", FileMode.Create));
             doc.Open();
