@@ -40,7 +40,13 @@ namespace PDF_Resume_Creator
 
         private void btnPDF_Click(object sender, EventArgs e)
         {
-
+            Document doc = new Document();
+            PdfWriter.GetInstance(doc, new FileStream("Resume.pdf", FileMode.Create));
+            doc.Open();
+            Paragraph info = new Paragraph(richTextBox1.Text);
+            doc.Add(info);
+            doc.Close();
+            MessageBox.Show("PDF successfully created!", "PDF Creator", MessageBoxButtons.OK);
         }
     }
 }
