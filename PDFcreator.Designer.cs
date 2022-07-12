@@ -47,6 +47,7 @@
             this.btnPDF.TabIndex = 0;
             this.btnPDF.Text = "Convert to PDF";
             this.btnPDF.UseVisualStyleBackColor = false;
+            this.btnPDF.Click += new System.EventHandler(this.btnPDF_Click);
             // 
             // label1
             // 
