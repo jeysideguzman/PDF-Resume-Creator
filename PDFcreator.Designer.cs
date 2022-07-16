@@ -1,6 +1,6 @@
 ﻿namespace PDF_Resume_Creator
 {
-    partial class Form1
+    partial class PDF_Creator
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PDF_Creator));
             this.btnPDF = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.btnJSON = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnPDF
@@ -96,21 +97,35 @@
             this.btnJSON.UseVisualStyleBackColor = false;
             this.btnJSON.Click += new System.EventHandler(this.btnJSON_Click);
             // 
-            // Form1
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(257, 548);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(146, 44);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "View Resume";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // PDF_Creator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(683, 594);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnJSON);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnPDF);
-            this.Name = "Form1";
+            this.Name = "PDF_Creator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "PDF Creator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,6 +138,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button btnJSON;
+        private System.Windows.Forms.Button button1;
     }
 }
 

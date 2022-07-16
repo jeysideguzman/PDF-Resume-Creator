@@ -8,10 +8,11 @@ C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\bin\Debug\itextsharp.xml
 C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\bin\Debug\Newtonsoft.Json.xml
 C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.AssemblyReference.cache
 C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.SuggestedBindingRedirects.cache
-C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF_Resume_Creator.Form1.resources
 C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF_Resume_Creator.Properties.Resources.resources
 C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.GenerateResource.cache
 C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.CoreCompileInputs.cache
 C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.CopyComplete
 C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF Resume Creator.exe
 C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF Resume Creator.pdb
+C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF_Resume_Creator.ResumeForm.resources
+C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF_Resume_Creator.PDF_Creator.resources
