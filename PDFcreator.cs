@@ -298,7 +298,7 @@ namespace PDF_Resume_Creator
             doc.Add(six);
 
             doc.Close();
-            MessageBox.Show("PDF successfully created!", "PDF Creator", MessageBoxButtons.OK);
+            MessageBox.Show("PDF successfully created!", "PDF Creator", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }  
 

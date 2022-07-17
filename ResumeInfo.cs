@@ -8,6 +8,7 @@ namespace PDF_Resume_Creator
 {
     internal class ResumeInfo
     {
+        //to create jsonfile
         public string Name { get; set; }
         public string pwork { get; set; }
         public string School { get; set; }
