@@ -14,5 +14,4 @@ C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF Resume Creator
 C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF Resume Creator.csproj.CopyComplete
 C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF Resume Creator.exe
 C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF Resume Creator.pdb
-C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF_Resume_Creator.ResumeForm.resources
 C:\Users\JOHN CARLO\OOP PROGRAMS\PDF Resume Creator\obj\Debug\PDF_Resume_Creator.PDF_Creator.resources

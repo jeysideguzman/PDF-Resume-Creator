@@ -63,12 +63,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ResumeForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ResumeForm.Designer.cs">
-      <DependentUpon>ResumeForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="ResumeInfo.cs" />
     <EmbeddedResource Include="PDFcreator.resx">
       <DependentUpon>PDFcreator.cs</DependentUpon>
@@ -82,9 +76,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="ResumeForm.resx">
-      <DependentUpon>ResumeForm.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
